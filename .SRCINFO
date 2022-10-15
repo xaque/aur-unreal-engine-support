@@ -1,0 +1,18 @@
+pkgbase = unreal-engine-support
+	pkgdesc = Support files for an untracked source build of Unreal Engine
+	pkgver = 5.0.3
+	pkgrel = 1
+	url = https://www.unrealengine.com/
+	arch = x86_64
+	license = custom
+	optdepends = android-ndk: Android build support
+	optdepends = clion: CLion IDE support
+	optdepends = code: Visual Studio Code IDE support
+	conflicts = unreal-engine
+	conflicts = unreal-engine-4
+	conflicts = unreal-engine-git
+	conflicts = unreal-engine-bin
+	source = unreal-engine.desktop
+	sha256sums = SKIP
+
+pkgname = unreal-engine-support
